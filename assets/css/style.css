@@ -65,7 +65,7 @@
     border-bottom:5px;
     border-right-style: solid;
     border-bottom-style: solid;
-    border-color: black;
+    border-color: var(--coolgray);
     padding-right: 10px;
     margin-right: 1600px;
     text-align: right;
@@ -96,18 +96,67 @@
       min-width: 100%;
       max-height: 517px;
   }
-  
 
+.work{
+  font-weight: bold;
+  font-size: 65px;
+    margin-left: 40px;
+    border-right: 5px ;
+    border-bottom:5px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-color: var(--coolgray);
+    padding-right: 10px;
+    margin-right: 1600px;
+    text-align: right;
+    /* align-items: baseline; */
+    color:var(--text)
+  }
+  .main-flex {
+  display: flex;
+  flex-direction: column;
+  }
+
+  
+  .big-flex img{
+    width: 100%;
+    height: 600px;
+  }
+
+  .small-main-flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* position: absolute; */
+    max-width: 100%;
+    max-height: 100vh
+  }
+  .small-flex-1 {
+    
+  }
+  .small-flex-2 {
+    
+  }
+  .small-flex-3 {
+    
+  }
+  .small-flex-4 {
+    
+  }
+
+  .small-flex-1 img, .small-flex-2 img,.small-flex-3 img,.small-flex-4 img{
+    max-width: 80%;
+  }
 @media screen and (max-width: 768px) {
-  body ,header {
+  body ,header, .work {
     width: 100%;
   }
-  header, header h1 {
+  header, header h1, .work{
     border: 3px;
     justify-content: center;
     padding: 0;
   }
-  div h2{
+  div h2 , .work{
     width: 100%;
     border-right: 0px;
     border-bottom: 5px;

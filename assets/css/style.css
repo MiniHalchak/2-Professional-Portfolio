@@ -179,7 +179,12 @@
     width: 100%;
   }
   header, header h1, .work{
+    justify-content: center;
     border: 3px;
+    padding: 0;
+  }
+
+  nav ul li{
     padding: 0;
   }
   div h2 ,h5 , .work{

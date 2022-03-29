@@ -34,7 +34,7 @@
     padding: 1%;
     padding-left: 0;
     background-color: var(--coolgray);
-    position: sticky;
+    position: static;
     
   }
   
@@ -61,8 +61,10 @@
     display: flex;
     font-size: 65px;
     margin-left: 40px;
-    border-right:5px;
+    border-right: 5px ;
+    border-bottom:5px;
     border-right-style: solid;
+    border-bottom-style: solid;
     border-color: black;
     padding-right: 10px;
     margin-right: 1600px;
@@ -70,49 +72,16 @@
     /* align-items: baseline; */
     color:var(--text)
   }
-.mainbox {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    max-width: 100%;
-    max-height: 100vh;
-}
 
-  .container1{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    max-width: 100%;
-    max-height: 100vh;
-  } 
-
-  .text1 {
-      display: flex;
-      flex-direction: column;
-      position: absolute;
-      max-width: 100%;
-      max-height: 100vh;
-    }
-   
-
-  .container2{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    max-width: 20%;
-    max-height: 100vh;
-  } 
-
-  .backgroundtext {
-    position: absolute;
-    margin: 0;
-    left:1528px;
-    bottom: 340px;
-    font-size: 50px;
-    background-color: var(--niceblue);
+  div .text1 {
+    font-size: 20px;
   }
+   
+  .container2{
+    max-width: 100%;
   
-  
+    display: flex;
+  }
   
     .marginfix {
       margin: 0;
@@ -136,6 +105,7 @@
   header, header h1 {
     border: 3px;
     justify-content: center;
+    padding: 0;
   }
   div h2{
     width: 100%;
@@ -196,3 +166,10 @@
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
 }
+/* .text1 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  max-width: 100%;
+  max-height: 100vh;
+} */

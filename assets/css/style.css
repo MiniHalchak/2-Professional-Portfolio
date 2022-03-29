@@ -102,25 +102,25 @@
       border-style: solid;
       }
 
-  div .text1 {
+  .text1 {
     font-size: 20px;
   }
-   
+  /* the flexbox for the About me header */
   .container{
     max-width: 100%;
     display: flex;
   }
-    
+  /* the flexbox container for the background image */
   .background-flex {
       display: flex;
   }
-  
+  /* styling for the backgrounf image */
   .background-img {
     display:block;
       min-width: 100%;
       max-height: 517px;
   }
-
+/* stying for the Work header */
 .work{
   font-weight: bold;
   font-size: 65px;
@@ -135,6 +135,7 @@
     text-align: right;
     color:var(--text)
   }
+/* the main flexbox that contains all of the Work section */
   .main-flex {
   display: flex;
   flex-direction: column;
